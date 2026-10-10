@@ -31,6 +31,20 @@
 - Bağımsız yayın incelemesi engelleyici bulgu bulmadı; mutlak proje yolu göreli
   ifadeye çevrildi ve Release bağlantısının yayın sonrası doğrulanması istendi.
 
+## 2026-10-11 — Derlenmiş dosyalar ve SHA-256
+
+- Kullanıcı derlenmiş dosyaların hash bilgileriyle ayrıca yüklenmesini istedi.
+- `RobotSaver.exe` ve `RobotSaver.scr`, ZIP'in yanında ayrı Release varlığı
+  olarak yüklendi. `SHA256SUMS.txt` ve Release açıklamasında SHA-256 değerleri var.
+- EXE/SCR: `4702ec988dc889ef51ecb9ea1b1bcbf1f442db843e988498a41ca29b10d78309`.
+- ZIP: `ec55da0c432d52f1fbdefa64a7cb60cfa2972cf052fbd516008106abad3138b8`.
+- GitHub asset digestleri bu değerlerle eşleşiyor. Public bağlantılardan EXE,
+  SCR, ZIP ve manifest yeniden indirildi; indirilen üç ikili için hash kontrolü geçti.
+- Authenticode durumu `NotSigned`; Release notu bilinmeyen yayıncı uyarısını
+  ve .NET 9 Windows Desktop Runtime gereksinimini açıklar.
+- Bağımsız inceleme manifesti yeniden hesapladı, ZIP içeriğini açtı ve bütün
+  yayın varlıklarını onayladı; engelleyici bulgu yok.
+
 ## 2026-10-11 — SCR yönlendirme geri bildirimi
 
 - Kullanıcı `.scr` modunda klavye/fare yönlendirmelerinin neden kaybolduğunu sordu.

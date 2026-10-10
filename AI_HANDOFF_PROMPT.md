@@ -35,6 +35,10 @@ yayınlandı. README ve GitHub açıklaması etkileşimli `RobotSaver.scr /play`
 komutunu içeriyor. Derleme çıktıları ve `linkedin-video.mp4` kaynak repoda yok;
 `v0.3.0` Release indirilebilir Windows ZIP paketini içeriyor.
 
+Aynı Release içinde `RobotSaver.exe`, `RobotSaver.scr` ve `SHA256SUMS.txt`
+ayrı varlıklardır. Hashler Release açıklamasında da bulunur ve public indirmeler
+yeniden hashlenerek doğrulanmıştır. Dosyalar Authenticode ile imzalı değildir.
+
 2026-10-10 kalıcı tercihinin özeti: Her yazılım projesinde güncel aşama Markdown
 olarak saklanmalı; YZ'nin eksiklikleri netleştirmek için sorduğu sorular ve kullanıcının
 yanıtları, başka bir YZ'nin devam edebilmesi için proje içinde prompt olarak korunmalı.

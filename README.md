@@ -4,7 +4,11 @@ Windows için robot süpürge ekran koruyucu projesi. **Aşama 3: gerçek Window
 
 ## İndir
 
-Hazır Windows paketini [GitHub Releases](https://github.com/elcigil/RoboSaver/releases/latest) sayfasından indirin. Kaynak kod MIT lisansıyla açıktır.
+Hazır Windows paketini [GitHub Releases](https://github.com/elcigil/RoboSaver/releases/latest) sayfasından indirin. Derlenmiş `.exe` ve `.scr` dosyaları ayrı ayrı da sunulur. İndirdikten sonra [SHA256SUMS.txt](https://github.com/elcigil/RoboSaver/releases/latest/download/SHA256SUMS.txt) ile dosya bütünlüğünü doğrulayabilirsiniz. Kaynak kod MIT lisansıyla açıktır.
+
+```powershell
+Get-FileHash .\RobotSaver.scr -Algorithm SHA256
+```
 
 ## Derleme ve çalıştırma
 
