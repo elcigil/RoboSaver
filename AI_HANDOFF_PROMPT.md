@@ -29,11 +29,11 @@ kaybolduğunu sordu. Mevcut `/s` modu girişte çıkar; interaktif WASD/fare
 kontrolleri aynı `RobotSaver.scr` veya EXE'nin `/play` modundadır. Kullanıcı
 henüz standart `/s` çıkış davranışını değiştirmeyi açıkça istemedi.
 
-2026-10-11 yayın isteği: proje `RoboSaver` adlı proje köküne temiz olarak
-kopyalanacak, `elcigil/RoboSaver` public GitHub reposunda MIT lisansıyla
-yayınlanacak ve README etkileşimli `RobotSaver.scr /play` komutunu içerecek.
-Derleme çıktıları ve `linkedin-video.mp4` kaynak repoya alınmayacak; indirilebilir
-Windows paketi GitHub Release varlığı olarak sunulacak.
+2026-10-11 yayın isteği tamamlandı: proje `RoboSaver` adlı proje kökünde,
+`https://github.com/elcigil/RoboSaver` public GitHub reposunda MIT lisansıyla
+yayınlandı. README ve GitHub açıklaması etkileşimli `RobotSaver.scr /play`
+komutunu içeriyor. Derleme çıktıları ve `linkedin-video.mp4` kaynak repoda yok;
+`v0.3.0` Release indirilebilir Windows ZIP paketini içeriyor.
 
 2026-10-10 kalıcı tercihinin özeti: Her yazılım projesinde güncel aşama Markdown
 olarak saklanmalı; YZ'nin eksiklikleri netleştirmek için sorduğu sorular ve kullanıcının

@@ -9,7 +9,8 @@
 - Sıradaki iş: tam ayar arayüzü, kurulum/kısayollar, ses/N ve ikon.
 - Açık netleştirme sorusu veya bu aşama için bilinen engel yok.
 - Kullanıcı istekleri ve YZ devir promptu: [AI_HANDOFF_PROMPT.md](AI_HANDOFF_PROMPT.md).
-- Proje Git deposu olarak başlatılmadı; branch/commit kaydı yok.
+- Public GitHub repo: `https://github.com/elcigil/RoboSaver`; branch `main`.
+  İlk yayın commit'i `db3883d`; indirilebilir sürüm `v0.3.0`.
 
 ## 2026-10-11 — Açık kaynak GitHub yayını
 
@@ -19,9 +20,16 @@
   ve lisansı belirsiz referans `linkedin-video.mp4` kopyalanmadı.
 - MIT lisansı eklendi. README, public indirme bağlantısı ve
   `RobotSaver.scr /play` etkileşimli çalıştırma komutuyla güncellendi.
-- GitHub hedefi: `https://github.com/elcigil/RoboSaver`, public. Sürüm 0.3.0.
-- Yayın öncesi temiz klasörde tam test, secret taraması, Git durumu, GitHub
-  görünürlüğü ve indirilebilir Release varlıkları doğrulanacak.
+- GitHub: `https://github.com/elcigil/RoboSaver`, public. Sürüm 0.3.0.
+- Temiz klasörde 140 kontrol geçti; 26 izlenen dosya doğrulandı. Secret taraması
+  eşleşme bulmadı. `linkedin-video.mp4`, artifacts/bin/obj izlenmiyor.
+- `RoboSaver-v0.3.0-win-x64.zip` GitHub Release varlığı olarak yayınlandı;
+  paket içinde `RobotSaver.scr`, `RobotSaver.exe`, README ve LICENSE var.
+- GitHub açıklaması etkileşimli `RobotSaver.scr /play` komutunu içeriyor.
+- Yayınlanan ZIP'in içeriği listelendi; `.scr` ve `.exe` SHA-256 olarak aynı.
+  Paket içindeki `.scr /s` gerçek süreçte çalıştı ve native tuşla çıkış kodu 0 kapandı.
+- Bağımsız yayın incelemesi engelleyici bulgu bulmadı; mutlak proje yolu göreli
+  ifadeye çevrildi ve Release bağlantısının yayın sonrası doğrulanması istendi.
 
 ## 2026-10-11 — SCR yönlendirme geri bildirimi
 
