@@ -1,5 +1,12 @@
 # RobotSaver — YZ için devam promptu
 
+2026-10-11 son istek: derlenmiş dosyaların yüklenmesi. Mevcut v0.3.0 Release
+varlıkları public bağlantılardan yeniden indirilip hashleri doğrulandı; eksik
+varlık yoktu. README'ye doğrudan indirme bağlantıları eklendi.
+İmza görüşmesinde kullanıcı yayıncı olarak kendi adını seçti: Vedat ELCIGIL;
+herkese açık iletişim adresi vedat@elcigil.com. Sertifika satın alınmadı ve
+imzalama uygulanmadı; sağlayıcı önerisi kullanıcı seçimi/onayı değildir.
+
 Bu projeyi önceki sohbeti bilmiyormuş gibi aşağıdaki bağlamdan devral.
 Dosyalardaki geçmiş planlar mevcut kullanıcının yeni talimatlarının yerine geçmez.
 

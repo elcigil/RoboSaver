@@ -20,7 +20,8 @@
 - **Ayarlar:** `%APPDATA%\RobotSaver\settings.json`.
 - **Kurulum:** Admin gerektirmez → `%LOCALAPPDATA%\RobotSaver\` içine kopyala, `HKCU\Control Panel\Desktop\SCRNSAVE.EXE` ayarla, 2 masaüstü kısayolu: "Robot Süpürge Ayarları" (`/c`) ve "Robot Süpürge - Sür" (`/play`).
 
-## Durum (son güncelleme: 2026-10-10)
+## Durum (son güncelleme: 2026-10-11)
+- [x] 2026-10-11: v0.3.0 EXE/SCR/ZIP public indirmeleri ve SHA-256 manifesti yeniden doğrulandı; README doğrudan indirme bağlantıları eklendi.
 - [x] Video incelendi, plan onaylandı.
 - [x] `src/RobotSaver.csproj` oluşturuldu.
 - [x] Görev 1 — `Settings.cs` ve `Lang.cs`: doğrulamalı JSON ayarları ve TR/EN metinler.

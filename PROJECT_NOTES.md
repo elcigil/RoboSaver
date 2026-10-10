@@ -1,5 +1,17 @@
 # Proje çalışma notları
 
+## 2026-10-11 — Derlenmiş dosyalara erişimin yeniden doğrulanması
+
+- Kullanıcı derlenmiş dosyaların yüklenmediğini bildirip yüklenmesini istedi.
+- GitHub API, v0.3.0 içinde EXE, SCR, ZIP ve SHA256SUMS.txt varlıklarının zaten
+  bulunduğunu gösterdi. Üzerlerine yazılmadı ve yinelenen sürüm oluşturulmadı.
+- Dört dosya public HTTPS bağlantılarından artifacts/upload-verification içine
+  indirildi; EXE, SCR ve ZIP SHA-256 değerleri manifestle birebir eşleşti.
+- README İndir bölümüne doğrudan dosya bağlantıları ve Releases → Assets konumu
+  eklendi. Uygulama kodu değişmedi; çalışma testleri yeniden yapılmadı.
+- Aşama 3 ve sonraki geliştirme işi değişmedi. Yayıncı tercihi Vedat ELCIGIL,
+  açık iletişim adresi vedat@elcigil.com; sertifika henüz alınmadı/uygulanmadı.
+
 ## Güncel durum — 2026-10-11
 
 - Aşama 3: masaüstü görüntülü gerçek Windows ekran koruyucusu hazır.
@@ -201,3 +213,5 @@
 - Mevcut görsel kodla çizilmiş vektördür; fotogerçekçi harici PNG üretilmedi. Görev 8 açık.
 - `/render` zaman değeri yalnızca çizim animasyonuna etki eder. Kullanıcının masaüstü görüntüsünü almaz.
 - Sonraki adım Görev 3: World/Surface ve simülasyon. Ardından Görev 4–6, gerçek mod/hareket matrisi, ikon ve kurulum testleri.
+
+- Bu erişim düzeltmesi bağımsız incelemeden geçti: dört varlığın hashleri ve yeni README bağlantılarının HTTP 200 yanıtları ayrıca doğrulandı; engelleyici bulgu yok.
