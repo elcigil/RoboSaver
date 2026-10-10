@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>RobotSaver</AssemblyName>
+    <RootNamespace>RobotSaver</RootNamespace>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <Version>0.3.0</Version>
+    <Product>Robot Süpürge Ekran Koruyucu</Product>
+    <RepositoryUrl>https://github.com/elcigil/RoboSaver</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ApplicationIcon Condition="Exists('robot.ico')">robot.ico</ApplicationIcon>
+  </PropertyGroup>
+  <Target Name="CopyScreenSaver" AfterTargets="Publish">
+    <Copy SourceFiles="$(PublishDir)RobotSaver.exe" DestinationFiles="$(PublishDir)RobotSaver.scr" />
+  </Target>
+</Project>
